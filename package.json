@@ -1,0 +1,36 @@
+{
+  "name": "lambda-gendoc-deleteregpdf",
+  "version": "1.0.0",
+  "description": "creacion archivo txt resultado textract, eliminacion reg de dynamoDb y pdf procesados",
+  "homepage": "https://github.com/angaritan/lambda-gendoc-deleteregpdf#readme",
+  "bugs": {
+    "url": "https://github.com/angaritan/lambda-gendoc-deleteregpdf/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angaritan/lambda-gendoc-deleteregpdf.git"
+  },
+  "license": "ISC",
+  "author": "Nelson Angarita Joya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.858.0",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^17.2.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.858.0",
+    "@aws-sdk/client-sns": "^3.858.0",
+    "@aws-sdk/client-sqs": "^3.858.0",
+    "@aws-sdk/client-textract": "^3.858.0",
+    "@aws-sdk/lib-dynamodb": "^3.859.0",
+    "aws-sdk-client-mock": "^4.1.0",
+    "aws-sdk-mock": "^6.2.1",
+    "jest": "^30.0.5"
+  }
+}
