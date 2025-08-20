@@ -169,7 +169,7 @@ Resources:
     Type: AWS::Events::Rule    
     Properties:
       Name: ScheduleLambdaGetdocDelete
-      ScheduleExpression: cron(30 10,15,17 ? * MON-FRI *)
+      ScheduleExpression: cron(30 15,20,22 ? * MON-FRI *)
       State: ENABLED
       Targets:
         - Id: Target1
